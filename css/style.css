@@ -1,0 +1,63 @@
+﻿@import url('db.onlinewebfonts.com/c/007f636c4af6a332a98f32cc3cee8cb4?family=Eurostile+Extended+#2');
+@import url('http://fonts.cdnfonts.com/css/skoda-pro');
+body {
+    font-family: "Eurostile Extended #2";
+    margin:0;
+    height: 500px;
+}
+h2{
+    font-weight:normal;
+    font-family: "Eurostile Extended #2";
+                                                
+}
+h3{
+    font-weight:normal;
+    margin:3px 0px;
+    text-align:center;
+}
+.responsive {
+    width: 100%;
+    height: auto;
+}
+
+.address{
+    margin-top: -2px;
+}
+.socials{
+    list-style: none;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    margin: 1rem 0 3rem 0;
+    color: black;
+}
+.socials li{
+    margin: 0 10px;
+}
+.socials a{
+    text-decoration: none;
+    color: rgb(160, 1, 1);
+}
+.socials a i{
+    font-size: 1.1rem;
+    transition: color .4s ease;
+
+}
+.socials a:hover i{
+    color: aqua;
+}
+footer{
+    font-family: 'Skoda Pro', sans-serif;                                         
+}
+footer p{
+    font-family:'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+}
+.link{
+    text-decoration: none;
+    color: black;
+    margin-top: -15px;
+    font-family:'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+}
+.link:hover{
+    color: #00800d;
+}
